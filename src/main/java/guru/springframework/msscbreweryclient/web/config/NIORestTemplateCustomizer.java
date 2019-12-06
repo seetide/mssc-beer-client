@@ -13,7 +13,7 @@ import org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFacto
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-@Component
+//@Component
 public class NIORestTemplateCustomizer implements RestTemplateCustomizer {
 
     public ClientHttpRequestFactory clientHttpRequestFactory() throws Exception {
